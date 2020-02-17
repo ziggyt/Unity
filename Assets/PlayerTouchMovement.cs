@@ -38,7 +38,7 @@ public class PlayerTouchMovement : MonoBehaviour
             Touch touch = Input.GetTouch(0);
 
             // Move the cube if the screen has the finger moving.
-            if (touch.phase == TouchPhase.Began)
+            if (touch.phase == TouchPhase.Stationary)
             {
                 Vector2 pos = touch.position;
 

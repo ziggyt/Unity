@@ -24,6 +24,7 @@ public class PlayerTouchMovement : MonoBehaviour
     {
         width = (float) Screen.width / 2.0f;
         height = (float) Screen.height / 2.0f;
+        
     }
 
 
